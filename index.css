@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+}
+.nav-item{font-size:20px;font-weight:600;padding:0 15px;}
+.nav-item a:hover{color:black;}
+.collapse .navbar-collapse .show{background-color:white;}
+.bgimg-1,.ribbon{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-1{background-image: url('img/bgimg2.jpg');
+         min-height: 100%;
+		  }
+.bgimg-1 h1{color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    line-height: 600px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}		 
+
+.navbar-toggler{background-color:#000000;}
+	
+	
+	
+.container {
+    max-width: 960px;
+    margin: 0 auto; 
+}	
+.content{margin-top:50px;
+          margin-bottom:50px;   
+        }
+	.content h2{text-align:center;
+	text-transform: uppercase;}
+	
+	.content h3{margin-top:40px;
+	    font-style: italic;
+		text-align:center;}
+	.content p{font-size:20px;}
+
+	.mypic{ text-align: center!important;
+    padding:12px 24px;
+	 
+}	
+.pics{background: no-repeat center center fixed; 
+max-width:100%;
+margin-top:20px;
+border-radius:20px;}
+.content p{margin-top:20px;}
+
+.ribbon{background-image: url('img/bgimg5.jpg');
+     min-height: 100%;
+	 
+         }
+		 
+.mywork .center{text-align:center;
+        padding:40px 0px;
+         background: rgba(0, 0, 0, 0.4);
+		 color:white;
+		 font-size:20px;
+		 font-weight:600;
+}	
+
+.ribbon .portfolio{color: rgba(0, 0, 0, 0.5);
+    font-size: 60px;
+	font-style:italic;
+    line-height: 600px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.footar{padding:30px;background:#495057;}
+.footar .padding1{padding:20px; text-align:center;color:white;}
+.footar a {font-family:italic;font-size:30px;text-decoration:none;color:yellow;}
+.font{padding:10px;font-size:30px;}
+
+/*for navbar */
+    @media (min-width: 768px) and (max-width: 992px) {
+    .navbar-expand .navbar-collapse ,.nav-item{
+        font-size:15px;font-weight:600;padding:0 8px;
+		
+    }
+	}
+	 @media (min-width: 768px) and (max-width: 992px) {
+    .form-control ,.btn{
+        padding: 5px 1px;
+    font-size: 14px;
+		
+    }
+	}
+/*for navbar collapse*/
+     @media all and (max-width: 768px) {
+    .collapse .navbar-collapse .show{background-color:white;}
+		
+    }
+	}
+/*for footer*/
+    @media all and (max-width: 375px) {
+    .padding1,.font,.footar a  {
+        font-size: 20px;
+		
+    }
+	}
+/*for portfolio*/	
+        @media all and (max-width: 576px) {
+    .mywork .center  {
+        padding:10px 0px;
+		
+    }
+	}
+
+@media all and (min-width: 375px) {
+    .ribbon .portfolio {
+        line-height: 200px;
+    }
+	}
+	@media all and (min-width: 768px) {
+    .ribbon .portfolio {
+        line-height: 400px;
+    }
+	}
+	@media all and (min-width: 960px) {
+    .ribbon .portfolio {
+        line-height: 600px;
+    }
+	}
+	
+	@media all and (min-width: 375px) {
+   .ribbon .portfolio,.bgimg-1 h1 {
+        font-size: 30px;
+    }
+	}	
+	
+@media all and (min-width: 768px) {
+    .ribbon .portfolio,.bgimg-1 h1 {
+        font-size: 40px;
+    }
+}
+@media all and (min-width: 960px) {
+    .ribbon .portfolio,.bgimg-1 h1 {
+        font-size: 60px;
+    }
+}	
